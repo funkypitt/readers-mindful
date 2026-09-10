@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_title">pleine conscience</string>
+    <string name="action_ok">ok</string>
+    <string name="action_cancel">annuler</string>
+    <string name="min">min</string>
+    <string name="f_interval">un bol toutes les</string>
+    <string name="f_interval_hint">un seul son, encore et encore, jusqu\'à l\'arrêt</string>
+    <string name="f_period">méditer</string>
+    <string name="f_period_hint">silence, puis trois bols à la fin</string>
+    <string name="f_schedule">bols à heures fixes</string>
+    <string name="f_schedule_hint">aucun pour l\'instant — toucher pour ajouter une heure</string>
+    <string name="next_bowl">prochain à %1$s · dans %2$s</string>
+    <string name="rang">%1$d sonnés</string>
+    <string name="until">jusqu\'à %1$s · reste %2$s</string>
+    <string name="every_minutes">toutes les combien de minutes ?</string>
+    <string name="minutes">combien de minutes ?</string>
+    <string name="bowl">bol</string>
+    <string name="bowl_hint">Le bol que chaque fonction fait sonner. Toucher pour l\'écouter.</string>
+    <string name="listen">écouter le bol</string>
+    <string name="settings">réglages</string>
+    <string name="schedule_hint">Chaque jour à ces heures, un son ou trois. Toucher une heure pour la modifier.</string>
+    <string name="no_bells">aucune heure pour l\'instant</string>
+    <string name="new_time">+ nouvelle heure</string>
+    <string name="new_time_title">heure (hh:mm)</string>
+    <string name="change_time">changer l\'heure</string>
+    <string name="one_bowl">un bol</string>
+    <string name="three_bowls">trois bols</string>
+    <string name="turn_on">activer</string>
+    <string name="turn_off">désactiver</string>
+    <string name="delete">supprimer</string>
+    <string name="on">actif</string>
+    <string name="off">inactif</string>
+    <string name="theme_dark">blanc sur noir</string>
+    <string name="theme_light">noir sur blanc</string>
+    <string name="colours">couleurs</string>
+    <string name="text_size">taille du texte</string>
+    <string name="font">police</string>
+    <string name="haptics">retour haptique</string>
+    <string name="battery_ok">fonctionnement en arrière-plan : autorisé</string>
+    <string name="battery_fix">autoriser le fonctionnement en arrière-plan</string>
+    <string name="battery_hint">pour que le bol sonne toujours à l\'heure, même après des heures de veille profonde</string>
+    <string name="about">un bol toutes les X minutes, une assise chronométrée, des bols à heures fixes</string>
+    <string name="channel">session en cours</string>
+    <string name="channel_desc">Affichée pendant un rappel ou une période de méditation. Silencieuse : le bol est le seul son.</string>
+    <string name="notif_interval">un bol toutes les %1$d min · prochain à %2$s</string>
+    <string name="notif_period">méditation %1$d min · jusqu\'à %2$s</string>
+    <string name="notif_ringing">le bol</string>
+    <string name="stop_reminder">arrêter les bols</string>
+    <string name="stop_meditation">arrêter la méditation</string>
+    <string name="widget_desc">un bol toutes les X minutes, une méditation chronométrée — play et stop</string>
+    <string name="widget_config_hint">Que doit afficher ce widget ? Les deux fonctions l\'une sous l\'autre, ou une seule.</string>
+    <string name="widget_both">les deux</string>
+    <string name="widget_interval_only">un bol toutes les X minutes seulement</string>
+    <string name="widget_period_only">période de méditation seulement</string>
+    <string name="w_interval">un bol toutes les</string>
+    <string name="w_next">prochain à %1$s · %2$d sonnés</string>
+    <string name="w_period">méditer</string>
+    <string name="w_until">jusqu\'à %1$s</string>
+    <string name="custom_sound">votre propre son…</string>
+    <string name="custom_sound_hint">un fichier mp3 ou wav du téléphone, à la place du son d\'un bol ; trois bols = joué trois fois</string>
+    <string name="custom_sound_hint_set">votre propre enregistrement ; trois bols = joué trois fois</string>
+    <string name="use_this_sound">utiliser ce son</string>
+    <string name="pick_another_file">choisir un autre fichier…</string>
+</resources>

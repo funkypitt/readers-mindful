@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_title">atenção plena</string>
+    <string name="action_ok">ok</string>
+    <string name="action_cancel">cancelar</string>
+    <string name="min">min</string>
+    <string name="f_interval">uma taça a cada</string>
+    <string name="f_interval_hint">um único toque, vez após vez, até parar</string>
+    <string name="f_period">meditar</string>
+    <string name="f_period_hint">silêncio, e três taças no fim</string>
+    <string name="f_schedule">taças a horas fixas</string>
+    <string name="f_schedule_hint">nenhuma ainda — toque para adicionar uma hora</string>
+    <string name="next_bowl">próxima às %1$s · em %2$s</string>
+    <string name="rang">%1$d tocadas</string>
+    <string name="until">até às %1$s · faltam %2$s</string>
+    <string name="every_minutes">a cada quantos minutos?</string>
+    <string name="minutes">quantos minutos?</string>
+    <string name="bowl">taça</string>
+    <string name="bowl_hint">A taça que cada função faz soar. Toque numa para a ouvir.</string>
+    <string name="listen">ouvir a taça</string>
+    <string name="settings">definições</string>
+    <string name="schedule_hint">Todos os dias a estas horas, um toque ou três. Toque numa hora para a alterar.</string>
+    <string name="no_bells">nenhuma hora ainda</string>
+    <string name="new_time">+ nova hora</string>
+    <string name="new_time_title">hora (hh:mm)</string>
+    <string name="change_time">alterar a hora</string>
+    <string name="one_bowl">uma taça</string>
+    <string name="three_bowls">três taças</string>
+    <string name="turn_on">ativar</string>
+    <string name="turn_off">desativar</string>
+    <string name="delete">apagar</string>
+    <string name="on">ativa</string>
+    <string name="off">inativa</string>
+    <string name="theme_dark">branco sobre preto</string>
+    <string name="theme_light">preto sobre branco</string>
+    <string name="colours">cores</string>
+    <string name="text_size">tamanho do texto</string>
+    <string name="font">tipo de letra</string>
+    <string name="haptics">vibração</string>
+    <string name="battery_ok">funcionamento em segundo plano: permitido</string>
+    <string name="battery_fix">permitir o funcionamento em segundo plano</string>
+    <string name="battery_hint">para que a taça soe sempre à hora, mesmo após horas de sono profundo</string>
+    <string name="about">uma taça a cada X minutos, uma sessão cronometrada, taças a horas fixas</string>
+    <string name="channel">sessão em curso</string>
+    <string name="channel_desc">Mostrada enquanto decorre um lembrete ou uma meditação. Silenciosa: a taça é o único som.</string>
+    <string name="notif_interval">uma taça a cada %1$d min · próxima às %2$s</string>
+    <string name="notif_period">meditação %1$d min · até às %2$s</string>
+    <string name="notif_ringing">a taça</string>
+    <string name="stop_reminder">parar as taças</string>
+    <string name="stop_meditation">parar a meditação</string>
+    <string name="widget_desc">uma taça a cada X minutos, uma meditação cronometrada — play e stop</string>
+    <string name="widget_config_hint">O que deve mostrar este widget? As duas funções uma sob a outra, ou só uma.</string>
+    <string name="widget_both">as duas</string>
+    <string name="widget_interval_only">só uma taça a cada X minutos</string>
+    <string name="widget_period_only">só a meditação</string>
+    <string name="w_interval">uma taça a cada</string>
+    <string name="w_next">próxima às %1$s · %2$d tocadas</string>
+    <string name="w_period">meditar</string>
+    <string name="w_until">até às %1$s</string>
+    <string name="custom_sound">o seu próprio som…</string>
+    <string name="custom_sound_hint">um ficheiro mp3 ou wav do telemóvel, em vez do toque único; três taças = tocado três vezes</string>
+    <string name="custom_sound_hint_set">a sua própria gravação; três taças = tocado três vezes</string>
+    <string name="use_this_sound">usar este som</string>
+    <string name="pick_another_file">escolher outro ficheiro…</string>
+</resources>

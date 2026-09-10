@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_title">atención</string>
+    <string name="action_ok">ok</string>
+    <string name="action_cancel">cancelar</string>
+    <string name="min">min</string>
+    <string name="f_interval">un cuenco cada</string>
+    <string name="f_interval_hint">un solo toque, una y otra vez, hasta que lo pares</string>
+    <string name="f_period">meditar</string>
+    <string name="f_period_hint">silencio, y tres cuencos al final</string>
+    <string name="f_schedule">cuencos a horas fijas</string>
+    <string name="f_schedule_hint">ninguno todavía — toca para añadir una hora</string>
+    <string name="next_bowl">próximo a las %1$s · en %2$s</string>
+    <string name="rang">%1$d sonados</string>
+    <string name="until">hasta las %1$s · quedan %2$s</string>
+    <string name="every_minutes">¿cada cuántos minutos?</string>
+    <string name="minutes">¿cuántos minutos?</string>
+    <string name="bowl">cuenco</string>
+    <string name="bowl_hint">El cuenco que hace sonar cada función. Toca uno para escucharlo.</string>
+    <string name="listen">escuchar el cuenco</string>
+    <string name="settings">ajustes</string>
+    <string name="schedule_hint">Cada día a estas horas, un toque o tres. Toca una hora para cambiarla.</string>
+    <string name="no_bells">ninguna hora todavía</string>
+    <string name="new_time">+ nueva hora</string>
+    <string name="new_time_title">hora (hh:mm)</string>
+    <string name="change_time">cambiar la hora</string>
+    <string name="one_bowl">un cuenco</string>
+    <string name="three_bowls">tres cuencos</string>
+    <string name="turn_on">activar</string>
+    <string name="turn_off">desactivar</string>
+    <string name="delete">eliminar</string>
+    <string name="on">activo</string>
+    <string name="off">inactivo</string>
+    <string name="theme_dark">blanco sobre negro</string>
+    <string name="theme_light">negro sobre blanco</string>
+    <string name="colours">colores</string>
+    <string name="text_size">tamaño del texto</string>
+    <string name="font">tipografía</string>
+    <string name="haptics">vibración</string>
+    <string name="battery_ok">funcionamiento en segundo plano: permitido</string>
+    <string name="battery_fix">permitir el funcionamiento en segundo plano</string>
+    <string name="battery_hint">para que el cuenco suene siempre a la hora, incluso tras horas de reposo profundo</string>
+    <string name="about">un cuenco cada X minutos, una sesión cronometrada, cuencos a horas fijas</string>
+    <string name="channel">sesión en curso</string>
+    <string name="channel_desc">Se muestra mientras corre un recordatorio o una meditación. Silenciosa: el cuenco es el único sonido.</string>
+    <string name="notif_interval">un cuenco cada %1$d min · próximo a las %2$s</string>
+    <string name="notif_period">meditación %1$d min · hasta las %2$s</string>
+    <string name="notif_ringing">el cuenco</string>
+    <string name="stop_reminder">parar los cuencos</string>
+    <string name="stop_meditation">parar la meditación</string>
+    <string name="widget_desc">un cuenco cada X minutos, una meditación cronometrada — play y stop</string>
+    <string name="widget_config_hint">¿Qué debe mostrar este widget? Las dos funciones una bajo otra, o solo una.</string>
+    <string name="widget_both">las dos</string>
+    <string name="widget_interval_only">solo un cuenco cada X minutos</string>
+    <string name="widget_period_only">solo la meditación</string>
+    <string name="w_interval">un cuenco cada</string>
+    <string name="w_next">próximo a las %1$s · %2$d sonados</string>
+    <string name="w_period">meditar</string>
+    <string name="w_until">hasta las %1$s</string>
+    <string name="custom_sound">tu propio sonido…</string>
+    <string name="custom_sound_hint">un archivo mp3 o wav del teléfono, en lugar del toque único; tres cuencos = reproducido tres veces</string>
+    <string name="custom_sound_hint_set">tu propia grabación; tres cuencos = reproducido tres veces</string>
+    <string name="use_this_sound">usar este sonido</string>
+    <string name="pick_another_file">elegir otro archivo…</string>
+</resources>

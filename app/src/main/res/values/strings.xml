@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Reader\'s Mindful Tool</string>
+    <string name="app_title">mindful</string>
+    <string name="action_ok">ok</string>
+    <string name="action_cancel">cancel</string>
+    <string name="min">min</string>
+    <string name="f_interval">a bowl every</string>
+    <string name="f_interval_hint">one strike, again and again, until you stop it</string>
+    <string name="f_period">meditate</string>
+    <string name="f_period_hint">silence, then three bowls at the end</string>
+    <string name="f_schedule">bowls at set times</string>
+    <string name="f_schedule_hint">none yet — tap to add a time of day</string>
+    <string name="next_bowl">next at %1$s · in %2$s</string>
+    <string name="rang">%1$d rung</string>
+    <string name="until">until %1$s · %2$s left</string>
+    <string name="every_minutes">every how many minutes?</string>
+    <string name="minutes">how many minutes?</string>
+    <string name="bowl">bowl</string>
+    <string name="bowl_hint">The bowl every function rings. Tap one to hear it.</string>
+    <string name="listen">hear the bowl</string>
+    <string name="settings">settings</string>
+    <string name="schedule_hint">Every day at these times, one strike or three. Tap a time to change it.</string>
+    <string name="no_bells">no time set yet</string>
+    <string name="new_time">+ new time</string>
+    <string name="new_time_title">time (hh:mm)</string>
+    <string name="change_time">change the time</string>
+    <string name="one_bowl">one bowl</string>
+    <string name="three_bowls">three bowls</string>
+    <string name="turn_on">turn on</string>
+    <string name="turn_off">turn off</string>
+    <string name="delete">delete</string>
+    <string name="on">on</string>
+    <string name="off">off</string>
+    <string name="theme_dark">white on black</string>
+    <string name="theme_light">black on white</string>
+    <string name="colours">colours</string>
+    <string name="text_size">text size</string>
+    <string name="font">font</string>
+    <string name="haptics">haptic tick</string>
+    <string name="battery_ok">runs in the background: allowed</string>
+    <string name="battery_fix">allow running in the background</string>
+    <string name="battery_hint">so the bowl always sounds on time, even after hours of deep sleep</string>
+    <string name="about">a bowl every X minutes, a timed sit, bowls at set times</string>
+    <string name="channel">running session</string>
+    <string name="channel_desc">Shown while a reminder or a meditation period runs. Silent: the bowl is the only sound.</string>
+    <string name="notif_interval">a bowl every %1$d min · next at %2$s</string>
+    <string name="notif_period">meditating %1$d min · until %2$s</string>
+    <string name="notif_ringing">the bowl</string>
+    <string name="stop_reminder">stop the bowls</string>
+    <string name="stop_meditation">stop meditating</string>
+    <string name="widget_name">Reader\'s Mindful Tool</string>
+    <string name="widget_desc">a bowl every X minutes, a timed meditation — play and stop</string>
+    <string name="widget_config_hint">What should this widget show? Both functions stacked, or just one.</string>
+    <string name="widget_both">both</string>
+    <string name="widget_interval_only">a bowl every X minutes only</string>
+    <string name="widget_period_only">meditation period only</string>
+    <string name="w_interval">a bowl every</string>
+    <string name="w_next">next at %1$s · %2$d rung</string>
+    <string name="w_period">meditate</string>
+    <string name="w_until">until %1$s</string>
+    <string name="custom_sound">your own sound…</string>
+    <string name="custom_sound_hint">an mp3 or wav file from the phone, in place of the single strike; three bowls = played three times</string>
+    <string name="custom_sound_hint_set">your own recording; three bowls = played three times</string>
+    <string name="use_this_sound">use this sound</string>
+    <string name="pick_another_file">pick another file…</string>
+</resources>

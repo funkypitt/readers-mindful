@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_title">осознанность</string>
+    <string name="action_ok">ок</string>
+    <string name="action_cancel">отмена</string>
+    <string name="min">мин</string>
+    <string name="f_interval">чаша каждые</string>
+    <string name="f_interval_hint">один удар, снова и снова, пока не остановите</string>
+    <string name="f_period">медитировать</string>
+    <string name="f_period_hint">тишина, затем три удара чаши в конце</string>
+    <string name="f_schedule">чаша в заданное время</string>
+    <string name="f_schedule_hint">пока ничего — нажмите, чтобы добавить время</string>
+    <string name="next_bowl">следующий в %1$s · через %2$s</string>
+    <string name="rang">%1$d прозвучало</string>
+    <string name="until">до %1$s · осталось %2$s</string>
+    <string name="every_minutes">каждые сколько минут?</string>
+    <string name="minutes">сколько минут?</string>
+    <string name="bowl">чаша</string>
+    <string name="bowl_hint">Чаша, в которую бьёт каждая функция. Нажмите, чтобы послушать.</string>
+    <string name="listen">послушать чашу</string>
+    <string name="settings">настройки</string>
+    <string name="schedule_hint">Каждый день в это время, один удар или три. Нажмите на время, чтобы изменить.</string>
+    <string name="no_bells">время ещё не задано</string>
+    <string name="new_time">+ новое время</string>
+    <string name="new_time_title">время (чч:мм)</string>
+    <string name="change_time">изменить время</string>
+    <string name="one_bowl">один удар</string>
+    <string name="three_bowls">три удара</string>
+    <string name="turn_on">включить</string>
+    <string name="turn_off">выключить</string>
+    <string name="delete">удалить</string>
+    <string name="on">вкл</string>
+    <string name="off">выкл</string>
+    <string name="theme_dark">белое на чёрном</string>
+    <string name="theme_light">чёрное на белом</string>
+    <string name="colours">цвета</string>
+    <string name="text_size">размер текста</string>
+    <string name="font">шрифт</string>
+    <string name="haptics">виброотклик</string>
+    <string name="battery_ok">работа в фоне: разрешена</string>
+    <string name="battery_fix">разрешить работу в фоне</string>
+    <string name="battery_hint">чтобы чаша всегда звучала вовремя, даже после часов глубокого сна</string>
+    <string name="about">чаша каждые X минут, сидение по таймеру, чаша в заданное время</string>
+    <string name="channel">текущая сессия</string>
+    <string name="channel_desc">Показывается, пока идёт напоминание или медитация. Беззвучно: чаша — единственный звук.</string>
+    <string name="notif_interval">чаша каждые %1$d мин · следующий в %2$s</string>
+    <string name="notif_period">медитация %1$d мин · до %2$s</string>
+    <string name="notif_ringing">чаша</string>
+    <string name="stop_reminder">остановить чашу</string>
+    <string name="stop_meditation">закончить медитацию</string>
+    <string name="widget_desc">чаша каждые X минут, медитация по таймеру — старт и стоп</string>
+    <string name="widget_config_hint">Что показывать этому виджету? Обе функции друг под другом или только одну.</string>
+    <string name="widget_both">обе</string>
+    <string name="widget_interval_only">только чаша каждые X минут</string>
+    <string name="widget_period_only">только медитация</string>
+    <string name="w_interval">чаша каждые</string>
+    <string name="w_next">следующий в %1$s · %2$d прозвучало</string>
+    <string name="w_period">медитировать</string>
+    <string name="w_until">до %1$s</string>
+    <string name="custom_sound">свой звук…</string>
+    <string name="custom_sound_hint">файл mp3 или wav с телефона вместо одиночного удара; три удара = воспроизводится трижды</string>
+    <string name="custom_sound_hint_set">своя запись; три удара = воспроизводится трижды</string>
+    <string name="use_this_sound">использовать этот звук</string>
+    <string name="pick_another_file">выбрать другой файл…</string>
+</resources>

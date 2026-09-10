@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_title">achtsam</string>
+    <string name="action_ok">ok</string>
+    <string name="action_cancel">abbrechen</string>
+    <string name="min">Min</string>
+    <string name="f_interval">eine Klangschale alle</string>
+    <string name="f_interval_hint">ein Anschlag, immer wieder, bis zum Stopp</string>
+    <string name="f_period">meditieren</string>
+    <string name="f_period_hint">Stille, dann drei Klangschalen am Ende</string>
+    <string name="f_schedule">Klangschalen zu festen Zeiten</string>
+    <string name="f_schedule_hint">noch keine — antippen, um eine Uhrzeit hinzuzufügen</string>
+    <string name="next_bowl">nächste um %1$s · in %2$s</string>
+    <string name="rang">%1$d geläutet</string>
+    <string name="until">bis %1$s · noch %2$s</string>
+    <string name="every_minutes">alle wie viele Minuten?</string>
+    <string name="minutes">wie viele Minuten?</string>
+    <string name="bowl">Klangschale</string>
+    <string name="bowl_hint">Die Klangschale, die jede Funktion anschlägt. Antippen, um sie zu hören.</string>
+    <string name="listen">Klangschale hören</string>
+    <string name="settings">Einstellungen</string>
+    <string name="schedule_hint">Jeden Tag zu diesen Zeiten, ein Anschlag oder drei. Eine Zeit antippen, um sie zu ändern.</string>
+    <string name="no_bells">noch keine Uhrzeit</string>
+    <string name="new_time">+ neue Uhrzeit</string>
+    <string name="new_time_title">Uhrzeit (hh:mm)</string>
+    <string name="change_time">Uhrzeit ändern</string>
+    <string name="one_bowl">eine Klangschale</string>
+    <string name="three_bowls">drei Klangschalen</string>
+    <string name="turn_on">einschalten</string>
+    <string name="turn_off">ausschalten</string>
+    <string name="delete">löschen</string>
+    <string name="on">an</string>
+    <string name="off">aus</string>
+    <string name="theme_dark">weiss auf schwarz</string>
+    <string name="theme_light">schwarz auf weiss</string>
+    <string name="colours">Farben</string>
+    <string name="text_size">Textgrösse</string>
+    <string name="font">Schrift</string>
+    <string name="haptics">haptisches Feedback</string>
+    <string name="battery_ok">Hintergrundbetrieb: erlaubt</string>
+    <string name="battery_fix">Hintergrundbetrieb erlauben</string>
+    <string name="battery_hint">damit die Klangschale immer pünktlich erklingt, auch nach Stunden im Tiefschlaf</string>
+    <string name="about">eine Klangschale alle X Minuten, eine Sitzung mit Zeit, Klangschalen zu festen Zeiten</string>
+    <string name="channel">laufende Sitzung</string>
+    <string name="channel_desc">Angezeigt, während eine Erinnerung oder eine Meditation läuft. Stumm: die Klangschale ist der einzige Ton.</string>
+    <string name="notif_interval">eine Klangschale alle %1$d Min · nächste um %2$s</string>
+    <string name="notif_period">Meditation %1$d Min · bis %2$s</string>
+    <string name="notif_ringing">die Klangschale</string>
+    <string name="stop_reminder">Klangschalen stoppen</string>
+    <string name="stop_meditation">Meditation beenden</string>
+    <string name="widget_desc">eine Klangschale alle X Minuten, eine Meditation mit Zeit — Start und Stopp</string>
+    <string name="widget_config_hint">Was soll dieses Widget zeigen? Beide Funktionen untereinander oder nur eine.</string>
+    <string name="widget_both">beide</string>
+    <string name="widget_interval_only">nur eine Klangschale alle X Minuten</string>
+    <string name="widget_period_only">nur die Meditation</string>
+    <string name="w_interval">eine Klangschale alle</string>
+    <string name="w_next">nächste um %1$s · %2$d geläutet</string>
+    <string name="w_period">meditieren</string>
+    <string name="w_until">bis %1$s</string>
+    <string name="custom_sound">eigener Klang…</string>
+    <string name="custom_sound_hint">eine mp3- oder wav-Datei vom Telefon anstelle des Einzelanschlags; drei Klangschalen = dreimal abgespielt</string>
+    <string name="custom_sound_hint_set">eigene Aufnahme; drei Klangschalen = dreimal abgespielt</string>
+    <string name="use_this_sound">diesen Klang verwenden</string>
+    <string name="pick_another_file">andere Datei wählen…</string>
+</resources>
