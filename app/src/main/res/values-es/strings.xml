@@ -41,6 +41,7 @@
     <string name="battery_fix">permitir el funcionamiento en segundo plano</string>
     <string name="battery_hint">para que el cuenco suene siempre a la hora, incluso tras horas de reposo profundo</string>
     <string name="about">un cuenco cada X minutos, una sesión cronometrada, cuencos a horas fijas</string>
+    <string name="credits">Pierre Gallaz · desarrollado con Claude Code</string>
     <string name="channel">sesión en curso</string>
     <string name="channel_desc">Se muestra mientras corre un recordatorio o una meditación. Silenciosa: el cuenco es el único sonido.</string>
     <string name="notif_interval">un cuenco cada %1$d min · próximo a las %2$s</string>

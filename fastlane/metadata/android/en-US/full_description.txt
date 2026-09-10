@@ -1,0 +1,15 @@
+A black-and-white, text-only app for three things a meditator asks of a bowl, made for e-ink phones and for anyone who wants the fewest taps possible. No icons, no colours: white on black or black on white, serif, sans or mono, three text sizes. Part of the Reader's family of apps (Reader's Launcher, Notes, Tasks, Calendar…). Built on the reliable bell mechanics of Retreat Timer.
+
+• A bowl every X minutes: one strike, again and again, until you stop it. Bowls are timed from the start of the session, never from the previous bowl, so they never drift off the clock.
+• Meditate X minutes: silence, then three bowls at the end, with a hairline showing how far the sit has come.
+• Bowls at set times: every day at the times you choose, one strike or three.
+
+The bowl is one global choice among five loudness-matched recordings (Tibetan bowl, singing bowl, gong bowl, Satipanya, enpleineconscience.ch) or your own mp3 or wav file. Tap a bowl in the settings to hear it.
+
+Ringing on time, no matter what: every bowl is armed as an alarm-clock alarm, the one kind Android fires exactly even in deep sleep; it wakes a foreground service under a wake lock; the recording plays on the alarm stream, through silent mode and Do Not Disturb; everything is re-armed after a reboot, a time change or an update; the settings offer the battery-optimisation exemption in one tap.
+
+A standard home-screen widget for any launcher: minus · minutes · plus · ▶ on one line per function, a live countdown while it runs. Reader's Launcher shows the same on its mindful tile.
+
+No network, no account, no tracking. English, French, German, Spanish, Portuguese, Russian. Free software, MIT licence.
+
+Pierre Gallaz · developed with Claude Code

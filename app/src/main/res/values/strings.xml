@@ -42,6 +42,7 @@
     <string name="battery_fix">allow running in the background</string>
     <string name="battery_hint">so the bowl always sounds on time, even after hours of deep sleep</string>
     <string name="about">a bowl every X minutes, a timed sit, bowls at set times</string>
+    <string name="credits">Pierre Gallaz · developed with Claude Code</string>
     <string name="channel">running session</string>
     <string name="channel_desc">Shown while a reminder or a meditation period runs. Silent: the bowl is the only sound.</string>
     <string name="notif_interval">a bowl every %1$d min · next at %2$s</string>

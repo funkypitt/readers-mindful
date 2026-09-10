@@ -41,6 +41,7 @@
     <string name="battery_fix">разрешить работу в фоне</string>
     <string name="battery_hint">чтобы чаша всегда звучала вовремя, даже после часов глубокого сна</string>
     <string name="about">чаша каждые X минут, сидение по таймеру, чаша в заданное время</string>
+    <string name="credits">Pierre Gallaz · разработано с Claude Code</string>
     <string name="channel">текущая сессия</string>
     <string name="channel_desc">Показывается, пока идёт напоминание или медитация. Беззвучно: чаша — единственный звук.</string>
     <string name="notif_interval">чаша каждые %1$d мин · следующий в %2$s</string>

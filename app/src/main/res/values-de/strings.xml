@@ -41,6 +41,7 @@
     <string name="battery_fix">Hintergrundbetrieb erlauben</string>
     <string name="battery_hint">damit die Klangschale immer pünktlich erklingt, auch nach Stunden im Tiefschlaf</string>
     <string name="about">eine Klangschale alle X Minuten, eine Sitzung mit Zeit, Klangschalen zu festen Zeiten</string>
+    <string name="credits">Pierre Gallaz · entwickelt mit Claude Code</string>
     <string name="channel">laufende Sitzung</string>
     <string name="channel_desc">Angezeigt, während eine Erinnerung oder eine Meditation läuft. Stumm: die Klangschale ist der einzige Ton.</string>
     <string name="notif_interval">eine Klangschale alle %1$d Min · nächste um %2$s</string>

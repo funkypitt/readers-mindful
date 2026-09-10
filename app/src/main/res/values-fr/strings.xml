@@ -41,6 +41,7 @@
     <string name="battery_fix">autoriser le fonctionnement en arrière-plan</string>
     <string name="battery_hint">pour que le bol sonne toujours à l\'heure, même après des heures de veille profonde</string>
     <string name="about">un bol toutes les X minutes, une assise chronométrée, des bols à heures fixes</string>
+    <string name="credits">Pierre Gallaz · développé avec Claude Code</string>
     <string name="channel">session en cours</string>
     <string name="channel_desc">Affichée pendant un rappel ou une période de méditation. Silencieuse : le bol est le seul son.</string>
     <string name="notif_interval">un bol toutes les %1$d min · prochain à %2$s</string>

@@ -1,0 +1,15 @@
+Une application noir et blanc, texte seulement, pour les trois choses qu'un méditant demande à un bol, pensée pour les téléphones e-ink et pour qui veut le moins de taps possible. Pas d'icônes, pas de couleurs : blanc sur noir ou noir sur blanc, serif, sans ou mono, trois tailles de texte. Fait partie de la famille Reader's (Reader's Launcher, Notes, Tasks, Calendar…). Construite sur la mécanique de cloche éprouvée de Retreat Timer.
+
+• Un bol toutes les X minutes : un coup, encore et encore, jusqu'à ce que vous l'arrêtiez. Les bols sont comptés depuis le début de la séance, jamais depuis le bol précédent, ils ne dérivent donc jamais.
+• Méditer X minutes : le silence, puis trois bols à la fin, avec un trait fin qui montre où en est l'assise.
+• Des bols à heures fixes : chaque jour aux heures choisies, un coup ou trois.
+
+Le bol est un choix global parmi cinq enregistrements au volume égalisé (bol tibétain, bol chantant, bol gong, Satipanya, enpleineconscience.ch) ou votre propre fichier mp3 ou wav. Un tap sur un bol dans les réglages le fait entendre.
+
+Sonner à l'heure, quoi qu'il arrive : chaque bol est armé comme une alarme de réveil, la seule qu'Android déclenche à l'heure exacte même en sommeil profond ; elle réveille un service au premier plan sous verrou d'éveil ; l'enregistrement joue sur le canal alarme, à travers le mode silencieux et Ne pas déranger ; tout est réarmé après un redémarrage, un changement d'heure ou une mise à jour ; les réglages proposent en un tap l'exemption d'optimisation de batterie.
+
+Un widget standard pour n'importe quel lanceur : moins · minutes · plus · ▶ sur une ligne par fonction, un compte à rebours en direct pendant la séance. Reader's Launcher montre la même chose sur sa tuile mindful.
+
+Pas de réseau, pas de compte, pas de pistage. Anglais, français, allemand, espagnol, portugais, russe. Logiciel libre, licence MIT.
+
+Pierre Gallaz · développé avec Claude Code

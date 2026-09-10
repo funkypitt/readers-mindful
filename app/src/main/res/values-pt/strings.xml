@@ -41,6 +41,7 @@
     <string name="battery_fix">permitir o funcionamento em segundo plano</string>
     <string name="battery_hint">para que a taça soe sempre à hora, mesmo após horas de sono profundo</string>
     <string name="about">uma taça a cada X minutos, uma sessão cronometrada, taças a horas fixas</string>
+    <string name="credits">Pierre Gallaz · desenvolvido com Claude Code</string>
     <string name="channel">sessão em curso</string>
     <string name="channel_desc">Mostrada enquanto decorre um lembrete ou uma meditação. Silenciosa: a taça é o único som.</string>
     <string name="notif_interval">uma taça a cada %1$d min · próxima às %2$s</string>

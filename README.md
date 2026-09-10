@@ -58,6 +58,10 @@ export JAVA_HOME=/path/to/jdk-21
 
 minSdk 26, targetSdk 34. Bell recordings in `app/src/main/res/raw` are those of Retreat Timer.
 
-## Licence
+## Crédits / Credits
 
-MIT.
+© 2026 Pierre Gallaz. Développé avec [Claude Code](https://claude.com/claude-code) (Anthropic).
+Licence MIT, voir `LICENSE`.
+
+© 2026 Pierre Gallaz. Developed with [Claude Code](https://claude.com/claude-code) (Anthropic).
+MIT licence, see `LICENSE`.
