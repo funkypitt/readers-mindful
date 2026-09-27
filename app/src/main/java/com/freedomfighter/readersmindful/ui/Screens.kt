@@ -145,7 +145,7 @@ fun HomeScreen(nav: Nav, app: App) {
                     onClick = { nav.push(Screen.Schedule) }
                 )
                 Rule(Modifier.padding(vertical = 6.dp))
-                TextRow(if (settings.bowl == Bowls.CUSTOM && Bowls.customFile(context) != null) Bowls.customName(context) else Bowls.byKey(settings.bowl).label, secondary = stringResource(R.string.bowl), size = typo.title) { nav.push(Screen.Settings) }
+                TextRow(if (settings.bowl == Bowls.CUSTOM && Bowls.customFile(context) != null) Bowls.customName(context) else stringResource(Bowls.byKey(settings.bowl).label), secondary = stringResource(R.string.bowl), size = typo.title) { nav.push(Screen.Settings) }
             }
             Box(Modifier.windowInsetsPadding(WindowInsets.navigationBars))
         }
@@ -289,7 +289,7 @@ fun SettingsScreen(nav: Nav, app: App) {
             Column(Modifier.weight(1f).verticalScroll(rememberScrollState())) {
                 Small(stringResource(R.string.bowl_hint), Modifier.padding(horizontal = rowPadH).padding(top = 16.dp, bottom = 4.dp), maxLines = 3)
                 Bowls.ALL.forEach { b ->
-                    TextRow(b.label, inverted = b.key == s.bowl, size = typo.title) { app.prefs.setBowl(b.key); BellService.preview(context, false) }
+                    TextRow(stringResource(b.label), inverted = b.key == s.bowl, size = typo.title) { app.prefs.setBowl(b.key); BellService.preview(context, false) }
                 }
                 val customName = Bowls.customName(context)
                 val hasCustom = Bowls.customFile(context) != null
@@ -313,10 +313,10 @@ fun SettingsScreen(nav: Nav, app: App) {
                 }
                 Rule(Modifier.padding(vertical = 8.dp))
                 TextRow(if (colors.isDark) stringResource(R.string.theme_dark) else stringResource(R.string.theme_light), secondary = stringResource(R.string.colours)) { app.prefs.toggleTheme(colors.isDark) }
-                TextRow(when (s.textSize) { TextSize.SMALL -> "S"; TextSize.MEDIUM -> "M"; TextSize.LARGE -> "L" }, secondary = stringResource(R.string.text_size)) {
+                TextRow(when (s.textSize) { TextSize.SMALL -> stringResource(R.string.size_small); TextSize.MEDIUM -> stringResource(R.string.size_medium); TextSize.LARGE -> stringResource(R.string.size_large) }, secondary = stringResource(R.string.text_size)) {
                     app.prefs.setTextSize(when (s.textSize) { TextSize.SMALL -> TextSize.MEDIUM; TextSize.MEDIUM -> TextSize.LARGE; TextSize.LARGE -> TextSize.SMALL })
                 }
-                TextRow(when (s.font) { FontChoice.SANS -> "sans-serif"; FontChoice.SERIF -> "serif"; FontChoice.MONO -> "mono" }, secondary = stringResource(R.string.font)) {
+                TextRow(when (s.font) { FontChoice.SANS -> stringResource(R.string.font_sans); FontChoice.SERIF -> stringResource(R.string.font_serif); FontChoice.MONO -> stringResource(R.string.font_mono) }, secondary = stringResource(R.string.font)) {
                     app.prefs.setFont(when (s.font) { FontChoice.SANS -> FontChoice.SERIF; FontChoice.SERIF -> FontChoice.MONO; FontChoice.MONO -> FontChoice.SANS })
                 }
                 TextRow(if (s.haptics) stringResource(R.string.on) else stringResource(R.string.off), secondary = stringResource(R.string.haptics)) { app.prefs.setHaptics(!s.haptics) }

@@ -2,22 +2,23 @@ package com.freedomfighter.readersmindful.data
 
 import android.content.Context
 import android.net.Uri
+import androidx.annotation.StringRes
 import com.freedomfighter.readersmindful.R
 import java.io.File
 
 /** One of Retreat Timer's bowls: [three] is three strikes, [one] a single strike. All recordings are loudness-matched. */
-data class Bowl(val key: String, val label: String, val three: Int, val one: Int)
+data class Bowl(val key: String, @StringRes val label: Int, val three: Int, val one: Int)
 
 object Bowls {
     const val DEFAULT = "eflat"
     /** The user's own recording (mp3, wav…), copied into the app's files; three strikes = played three times. */
     const val CUSTOM = "custom"
     val ALL = listOf(
-        Bowl("eflat", "Tibetan bowl (E♭)", R.raw.bell_eflat, R.raw.bell_eflat_one),
-        Bowl("singing", "singing bowl", R.raw.bell_singing, R.raw.bell_singing_one),
-        Bowl("gong", "gong bowl", R.raw.bell_gong, R.raw.bell_gong_one),
-        Bowl("satipanya", "Satipanya", R.raw.bell_satipanya, R.raw.bell_satipanya_one),
-        Bowl("enpleineconscience", "enpleineconscience.ch", R.raw.bell_enpleineconscience, R.raw.bell_enpleineconscience_one)
+        Bowl("eflat", R.string.bowl_eflat, R.raw.bell_eflat, R.raw.bell_eflat_one),
+        Bowl("singing", R.string.bowl_singing, R.raw.bell_singing, R.raw.bell_singing_one),
+        Bowl("gong", R.string.bowl_gong, R.raw.bell_gong, R.raw.bell_gong_one),
+        Bowl("satipanya", R.string.bowl_satipanya, R.raw.bell_satipanya, R.raw.bell_satipanya_one),
+        Bowl("enpleineconscience", R.string.bowl_enpleineconscience, R.raw.bell_enpleineconscience, R.raw.bell_enpleineconscience_one)
     )
 
     fun byKey(key: String?): Bowl = ALL.firstOrNull { it.key == key } ?: ALL.first()

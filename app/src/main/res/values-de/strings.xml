@@ -16,7 +16,7 @@
     <string name="every_minutes">alle wie viele Minuten?</string>
     <string name="minutes">wie viele Minuten?</string>
     <string name="bowl">Klangschale</string>
-    <string name="bowl_hint">Die Klangschale, die jede Funktion anschlägt. Antippen, um sie zu hören.</string>
+    <string name="bowl_hint">Die Klangschale für alle Töne der App. Antippen, um sie zu hören.</string>
     <string name="listen">Klangschale hören</string>
     <string name="settings">Einstellungen</string>
     <string name="schedule_hint">Jeden Tag zu diesen Zeiten, ein Anschlag oder drei. Eine Zeit antippen, um sie zu ändern.</string>
@@ -63,4 +63,13 @@
     <string name="custom_sound_hint_set">eigene Aufnahme; drei Klangschalen = dreimal abgespielt</string>
     <string name="use_this_sound">diesen Klang verwenden</string>
     <string name="pick_another_file">andere Datei wählen…</string>
+    <string name="bowl_eflat">tibetische Klangschale (Es)</string>
+    <string name="bowl_singing">singende Klangschale</string>
+    <string name="bowl_gong">Gong-Klangschale</string>
+    <string name="font_sans">Sans</string>
+    <string name="font_serif">Serif</string>
+    <string name="font_mono">Mono</string>
+    <string name="size_small">klein</string>
+    <string name="size_medium">mittel</string>
+    <string name="size_large">gross</string>
 </resources>

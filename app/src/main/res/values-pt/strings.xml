@@ -16,7 +16,7 @@
     <string name="every_minutes">a cada quantos minutos?</string>
     <string name="minutes">quantos minutos?</string>
     <string name="bowl">taça</string>
-    <string name="bowl_hint">A taça que cada função faz soar. Toque numa para a ouvir.</string>
+    <string name="bowl_hint">A taça para todos os sons da app. Toque numa para a ouvir.</string>
     <string name="listen">ouvir a taça</string>
     <string name="settings">definições</string>
     <string name="schedule_hint">Todos os dias a estas horas, um toque ou três. Toque numa hora para a alterar.</string>
@@ -63,4 +63,13 @@
     <string name="custom_sound_hint_set">a sua própria gravação; três taças = tocado três vezes</string>
     <string name="use_this_sound">usar este som</string>
     <string name="pick_another_file">escolher outro ficheiro…</string>
+    <string name="bowl_eflat">taça tibetana (mi♭)</string>
+    <string name="bowl_singing">taça cantante</string>
+    <string name="bowl_gong">taça gongo</string>
+    <string name="font_sans">sans</string>
+    <string name="font_serif">serif</string>
+    <string name="font_mono">mono</string>
+    <string name="size_small">pequeno</string>
+    <string name="size_medium">médio</string>
+    <string name="size_large">grande</string>
 </resources>

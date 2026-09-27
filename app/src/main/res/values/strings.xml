@@ -17,7 +17,7 @@
     <string name="every_minutes">every how many minutes?</string>
     <string name="minutes">how many minutes?</string>
     <string name="bowl">bowl</string>
-    <string name="bowl_hint">The bowl every function rings. Tap one to hear it.</string>
+    <string name="bowl_hint">The bowl for every sound in the app. Tap one to hear it.</string>
     <string name="listen">hear the bowl</string>
     <string name="settings">settings</string>
     <string name="schedule_hint">Every day at these times, one strike or three. Tap a time to change it.</string>
@@ -65,4 +65,15 @@
     <string name="custom_sound_hint_set">your own recording; three bowls = played three times</string>
     <string name="use_this_sound">use this sound</string>
     <string name="pick_another_file">pick another file…</string>
+    <string name="bowl_eflat">Tibetan bowl (E♭)</string>
+    <string name="bowl_singing">singing bowl</string>
+    <string name="bowl_gong">gong bowl</string>
+    <string name="font_sans">sans</string>
+    <string name="font_serif">serif</string>
+    <string name="font_mono">mono</string>
+    <string name="size_small">small</string>
+    <string name="size_medium">medium</string>
+    <string name="size_large">large</string>
+    <string name="bowl_satipanya" translatable="false">Satipanya</string>
+    <string name="bowl_enpleineconscience" translatable="false">enpleineconscience.ch</string>
 </resources>

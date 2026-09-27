@@ -16,7 +16,7 @@
     <string name="every_minutes">каждые сколько минут?</string>
     <string name="minutes">сколько минут?</string>
     <string name="bowl">чаша</string>
-    <string name="bowl_hint">Чаша, в которую бьёт каждая функция. Нажмите, чтобы послушать.</string>
+    <string name="bowl_hint">Чаша для всех звуков приложения. Нажмите, чтобы послушать.</string>
     <string name="listen">послушать чашу</string>
     <string name="settings">настройки</string>
     <string name="schedule_hint">Каждый день в это время, один удар или три. Нажмите на время, чтобы изменить.</string>
@@ -63,4 +63,13 @@
     <string name="custom_sound_hint_set">своя запись; три удара = воспроизводится трижды</string>
     <string name="use_this_sound">использовать этот звук</string>
     <string name="pick_another_file">выбрать другой файл…</string>
+    <string name="bowl_eflat">тибетская чаша (ми♭)</string>
+    <string name="bowl_singing">поющая чаша</string>
+    <string name="bowl_gong">чаша-гонг</string>
+    <string name="font_sans">без засечек</string>
+    <string name="font_serif">с засечками</string>
+    <string name="font_mono">моноширинный</string>
+    <string name="size_small">мелкий</string>
+    <string name="size_medium">средний</string>
+    <string name="size_large">крупный</string>
 </resources>

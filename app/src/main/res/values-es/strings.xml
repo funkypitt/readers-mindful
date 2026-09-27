@@ -16,7 +16,7 @@
     <string name="every_minutes">¿cada cuántos minutos?</string>
     <string name="minutes">¿cuántos minutos?</string>
     <string name="bowl">cuenco</string>
-    <string name="bowl_hint">El cuenco que hace sonar cada función. Toca uno para escucharlo.</string>
+    <string name="bowl_hint">El cuenco de todos los sonidos de la app. Toca uno para escucharlo.</string>
     <string name="listen">escuchar el cuenco</string>
     <string name="settings">ajustes</string>
     <string name="schedule_hint">Cada día a estas horas, un toque o tres. Toca una hora para cambiarla.</string>
@@ -63,4 +63,13 @@
     <string name="custom_sound_hint_set">tu propia grabación; tres cuencos = reproducido tres veces</string>
     <string name="use_this_sound">usar este sonido</string>
     <string name="pick_another_file">elegir otro archivo…</string>
+    <string name="bowl_eflat">cuenco tibetano (mi♭)</string>
+    <string name="bowl_singing">cuenco cantor</string>
+    <string name="bowl_gong">cuenco gong</string>
+    <string name="font_sans">sans</string>
+    <string name="font_serif">serif</string>
+    <string name="font_mono">mono</string>
+    <string name="size_small">pequeño</string>
+    <string name="size_medium">mediano</string>
+    <string name="size_large">grande</string>
 </resources>

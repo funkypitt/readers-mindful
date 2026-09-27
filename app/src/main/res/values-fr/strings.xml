@@ -16,7 +16,7 @@
     <string name="every_minutes">toutes les combien de minutes ?</string>
     <string name="minutes">combien de minutes ?</string>
     <string name="bowl">bol</string>
-    <string name="bowl_hint">Le bol que chaque fonction fait sonner. Toucher pour l\'écouter.</string>
+    <string name="bowl_hint">Le bol de tous les sons de l\'app. Toucher pour l\'écouter.</string>
     <string name="listen">écouter le bol</string>
     <string name="settings">réglages</string>
     <string name="schedule_hint">Chaque jour à ces heures, un son ou trois. Toucher une heure pour la modifier.</string>
@@ -63,4 +63,13 @@
     <string name="custom_sound_hint_set">votre propre enregistrement ; trois bols = joué trois fois</string>
     <string name="use_this_sound">utiliser ce son</string>
     <string name="pick_another_file">choisir un autre fichier…</string>
+    <string name="bowl_eflat">bol tibétain (mi♭)</string>
+    <string name="bowl_singing">bol chantant</string>
+    <string name="bowl_gong">bol gong</string>
+    <string name="font_sans">sans</string>
+    <string name="font_serif">serif</string>
+    <string name="font_mono">mono</string>
+    <string name="size_small">petit</string>
+    <string name="size_medium">moyen</string>
+    <string name="size_large">grand</string>
 </resources>
