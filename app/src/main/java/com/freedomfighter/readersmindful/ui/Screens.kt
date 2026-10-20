@@ -47,6 +47,7 @@ import com.freedomfighter.readersmindful.R
 import com.freedomfighter.readersmindful.data.Bell
 import com.freedomfighter.readersmindful.data.Bowls
 import com.freedomfighter.readersmindful.data.FontChoice
+import com.freedomfighter.readersmindful.data.Palettes
 import com.freedomfighter.readersmindful.data.Schedule
 import com.freedomfighter.readersmindful.data.Session
 import com.freedomfighter.readersmindful.data.TextSize
@@ -92,7 +93,6 @@ fun rememberNow(running: Boolean): Long {
 @Composable
 fun HomeScreen(nav: Nav, app: App) {
     val context = LocalContext.current
-    val colors = LocalColors.current
     val typo = LocalTypo.current
     val settings by app.prefs.settings.collectAsState()
     val live = Session.Live
@@ -153,7 +153,7 @@ fun HomeScreen(nav: Nav, app: App) {
             MenuItem(stringResource(R.string.f_schedule)) { nav.push(Screen.Schedule) },
             MenuItem(stringResource(R.string.listen)) { BellService.preview(context, false) }
         ), onDismiss = { menu = false }, footer = listOf(
-            MenuItem(if (colors.isDark) stringResource(R.string.theme_light) else stringResource(R.string.theme_dark)) { app.prefs.toggleTheme(colors.isDark) },
+            MenuItem(themeName(Palettes.next(settings.theme))) { app.prefs.nextTheme() },
             MenuItem(stringResource(R.string.settings)) { nav.push(Screen.Settings) }
         ))
         prompt?.let { which ->
@@ -185,9 +185,9 @@ fun FunctionRow(title: String, minutes: Int, running: Boolean, detail: String, o
             Small(detail, maxLines = 2, align = TextAlign.Start)
         }
         Box(
-            Modifier.padding(start = 16.dp).background(if (running) colors.fg else Color.Transparent).noRippleClickable(onClick = onToggle).padding(horizontal = 18.dp, vertical = 10.dp)
+            Modifier.padding(start = 16.dp).background(if (running) colors.accent else Color.Transparent).noRippleClickable(onClick = onToggle).padding(horizontal = 18.dp, vertical = 10.dp)
         ) {
-            T(if (running) "■" else "▶", size = typo.tile * 0.9f, color = if (running) colors.bg else colors.fg, align = TextAlign.Center)
+            T(if (running) "■" else "▶", size = typo.tile * 0.9f, color = if (running) colors.onAccent else colors.fg, align = TextAlign.Center)
         }
     }
 }
@@ -277,7 +277,6 @@ fun ScheduleScreen(nav: Nav, app: App) {
 fun SettingsScreen(nav: Nav, app: App) {
     val context = LocalContext.current
     val s by app.prefs.settings.collectAsState()
-    val colors = LocalColors.current
     val typo = LocalTypo.current
     val pm = context.getSystemService(android.content.Context.POWER_SERVICE) as PowerManager
     var battOk by remember { mutableStateOf(pm.isIgnoringBatteryOptimizations(context.packageName)) }
@@ -312,7 +311,7 @@ fun SettingsScreen(nav: Nav, app: App) {
                     if (!battOk) runCatching { context.startActivity(Intent(Settings.ACTION_REQUEST_IGNORE_BATTERY_OPTIMIZATIONS).setData(Uri.parse("package:${context.packageName}"))) }
                 }
                 Rule(Modifier.padding(vertical = 8.dp))
-                TextRow(if (colors.isDark) stringResource(R.string.theme_dark) else stringResource(R.string.theme_light), secondary = stringResource(R.string.colours)) { app.prefs.toggleTheme(colors.isDark) }
+                TextRow(themeName(s.theme), secondary = stringResource(R.string.colours)) { app.prefs.nextTheme() }
                 TextRow(when (s.textSize) { TextSize.SMALL -> stringResource(R.string.size_small); TextSize.MEDIUM -> stringResource(R.string.size_medium); TextSize.LARGE -> stringResource(R.string.size_large) }, secondary = stringResource(R.string.text_size)) {
                     app.prefs.setTextSize(when (s.textSize) { TextSize.SMALL -> TextSize.MEDIUM; TextSize.MEDIUM -> TextSize.LARGE; TextSize.LARGE -> TextSize.SMALL })
                 }
