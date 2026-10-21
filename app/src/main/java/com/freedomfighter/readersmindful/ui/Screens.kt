@@ -9,6 +9,10 @@ import androidx.activity.compose.rememberLauncherForActivityResult
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.compose.foundation.Canvas
 import androidx.compose.foundation.background
+import androidx.compose.foundation.clickable
+import androidx.compose.foundation.interaction.MutableInteractionSource
+import androidx.compose.foundation.interaction.collectIsPressedAsState
+import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
@@ -35,6 +39,7 @@ import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.stringResource
@@ -167,25 +172,52 @@ fun HomeScreen(nav: Nav, app: App) {
     }
 }
 
-/** One function on one line: the title with the minutes underlined as the thing to tap, and ▶ or ■ at the end. */
+/**
+ * One function on one line: the title with the minutes underlined as the thing to tap, and ▶ or ■
+ * at the end. With a colour theme the line is a card; the ▶ sits in a rounded box of the dimmer
+ * tile colour, the running ■ keeps the accent.
+ */
 @Composable
 fun FunctionRow(title: String, minutes: Int, running: Boolean, detail: String, onMinutes: () -> Unit, onToggle: () -> Unit) {
     val colors = LocalColors.current
     val typo = LocalTypo.current
-    Row(Modifier.fillMaxWidth().padding(horizontal = rowPadH, vertical = rowPadV * 0.6f), verticalAlignment = Alignment.CenterVertically) {
-        Column(Modifier.weight(1f).then(if (running) Modifier else Modifier.noRippleClickable(onClick = onMinutes))) {
+    val tiles = colors.tiles
+    val minutesTouch = remember { MutableInteractionSource() }
+    val minutesPressed by minutesTouch.collectIsPressedAsState()
+    val boxTouch = remember { MutableInteractionSource() }
+    val boxPressed by boxTouch.collectIsPressedAsState()
+    Row(
+        Modifier
+            .fillMaxWidth()
+            .tileCard(if (minutesPressed && !running) colors.press else colors.tile)
+            .padding(horizontal = if (tiles) rowPadH - tileGap else rowPadH, vertical = rowPadV * 0.6f),
+        verticalAlignment = Alignment.CenterVertically
+    ) {
+        Column(Modifier.weight(1f).then(if (running) Modifier else Modifier.clickable(interactionSource = minutesTouch, indication = null, onClick = onMinutes))) {
             Row(verticalAlignment = Alignment.Bottom) {
                 T(title, maxLines = 1, align = TextAlign.Start)
                 Box(Modifier.padding(start = 10.dp).width(IntrinsicSize.Min)) {
                     T("$minutes", maxLines = 1, align = TextAlign.Start, color = colors.fg)
-                    if (!running) Rule(Modifier.align(Alignment.BottomCenter).padding(bottom = 3.dp), color = colors.fg)
+                    // the underline marks the minutes as the thing to tap, in every theme (Rule is a spacer with tiles)
+                    if (!running) { val c = colors.fg; Canvas(Modifier.align(Alignment.BottomCenter).padding(bottom = 3.dp).fillMaxWidth().height(1.dp)) { drawRect(c) } }
                 }
                 Small(" " + stringResource(R.string.min), Modifier.padding(bottom = 5.dp), maxLines = 1, align = TextAlign.Start)
             }
             Small(detail, maxLines = 2, align = TextAlign.Start)
         }
+        val boxBg = when {
+            running -> colors.accent
+            tiles && boxPressed -> colors.press
+            tiles -> colors.tile2
+            else -> Color.Transparent
+        }
         Box(
-            Modifier.padding(start = 16.dp).background(if (running) colors.accent else Color.Transparent).noRippleClickable(onClick = onToggle).padding(horizontal = 18.dp, vertical = 10.dp)
+            Modifier
+                .padding(start = 16.dp)
+                .then(if (tiles) Modifier.clip(RoundedCornerShape(12.dp)) else Modifier)
+                .background(boxBg)
+                .clickable(interactionSource = boxTouch, indication = null, onClick = onToggle)
+                .padding(horizontal = 18.dp, vertical = 10.dp)
         ) {
             T(if (running) "■" else "▶", size = typo.tile * 0.9f, color = if (running) colors.onAccent else colors.fg, align = TextAlign.Center)
         }
